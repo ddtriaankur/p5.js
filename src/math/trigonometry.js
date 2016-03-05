@@ -294,8 +294,8 @@ p5.prototype.degrees = function(angle) {
  * <code>
  * var deg = 45.0;
  * var rad = radians(deg);
- * println(deg + " degrees is " + rad + " radians");
- * // Prints: 45 degrees is 0.7853981633974483 radians
+ * println(rad + " radians is " + deg + " degrees");
+ * // Prints: 0.7853981633974483 radians is 45 degrees
  * </code>
  * </div>
  */
